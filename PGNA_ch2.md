@@ -62,3 +62,18 @@ print([s for s in dir(nx) if s.endswith('graph')])
 - It is an array of elements that contains the same information as a graph
 - Types of matrices in social networks
   - Adjency matrix: A matrix with rows and columns at plot by nodes, where elements ![](http://latex.codecogs.com/gif.latex?A_%7Bij%7D) shows the number of links going from node i to node j
+    - It is not a good choice for large graph since because of the sparseness
+  - Edge list matrix: The list of edges represented as a tuple consisting of starting point, destination and attribute(optional)
+  - Adjacency list: A list of links whose element "i->j" show a link going from node i to node j
+  <img src ="https://pythonandr.files.wordpress.com/2016/07/adjacencylist.png"> </img>
+  - Numpy matrix, Sparse matrix
+
+## 2.7. Basic Matrix Operations
+- Matrix permutation: The rearrangement of rows and columns in a matrix.
+  - This is done at times when network tie patterns are not clear until we permute both the rows and the columns of the matrix
+- Matrix transpose, addition, subtraction, multiplication
+
+## 2.8. Data Visualization
+- Trees, undirected graphs in which every two vertices are connected by one simple path, are used at some times for data visualization and particularly when the dataset is small
+  - Trees can be polytree, rooted, labeled, recursive, directed, free, binary, or ternary
+- Other visualization tools include maps and hybrid approaches, multidimensional visualization techniques that used in both graphs and maps
