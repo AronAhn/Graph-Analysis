@@ -44,10 +44,21 @@ properties which are more relevant
 - Geodesic: A geodesic is the shortest path between two vertices
 - Average geodesic distance: The mean of the shortest path lengths among all connected pairs in the ego network
   - Ego network: e networks consisting of a single actor(ego) together with the actors they are connected to (alters) and all the links among those alters
-    - Everett, M.G., & Borgatti, S.P. (2005). Ego network betweenness. Social Networks, 27, 31-38.
+  *Everett, M.G., & Borgatti, S.P. (2005). Ego network betweenness. Social Networks, 27, 31-38.*
 - Multiplicity: The number of times a particular line occurs in a network
 - Popularity: The popularity of a vertex in a directed network is the number of arcs that it receives
 - Triad: A subnetwork consisting of three nodes
 
 ## 2.5. NetworkX
-- A Python language software package and an open-source tool for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks
+- NetworkX is the Python-based graph toolkit and is a type of memory graph databases
+- Graph types available from NetworkX packages
+```
+import networkx as nx
+print([s for s in dir(nx) if s.endswith('graph')])
+```
+
+## 2.6. Matrices
+- A matrix is an alternative way to represent and summarize network data
+- It is an array of elements that contains the same information as a graph
+- Types of matrices in social networks
+  - Adjency matrix: A matrix with rows and columns at plot by nodes, where elements ![](http://latex.codecogs.com/gif.latex?A_%7Bij%7D) shows the number of links going from node i to node j
