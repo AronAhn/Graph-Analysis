@@ -1,0 +1,3 @@
+- Bipartite graph: A graph whose nodes can be divided into two disjoint sets U and V s.t. every link connects nodes in U to one in V
+  - ex) authors to papaers, actors to movies
+- Folded networks: Author collaboration networks, movie co-rating networks
