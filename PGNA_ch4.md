@@ -23,7 +23,7 @@
   - In samll-world networks, most nodes are homogenoeous and can be reached by a small number of steps
   - The distance between any two nodes grows proportionally to the logarithm of order of the network
   - Those have many local links and few long-range *shortcuts*
-  - High CC, short average path length, over0abundance of hub nodes
+  - High CC, short average path length, over abundance of hub nodes
   - Dense clusters loosely connected by boundary spanners(connectors)
     - They are uniform but decay exponentially
   - Famous graphsin this category is *Watts-Strogats(WS) small-world graph*
