@@ -7,3 +7,4 @@
 - Ego centric network analysis examines the subnetwork of one particular node
 
 ## 5.2. Identifying Influential Individuals in the Network
+- 
