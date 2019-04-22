@@ -15,7 +15,7 @@
   - Network segmentation: cohesive subgroups, cliques, clustering coefficient, k-cores, core/periphery, blockmodel, hierarchical clustering
 
 ### 1.2.1. Network Connections
-  - Transitivity: (3*n of triangles) / (n of connected triples)
+  - Transitivity: (3 x n of triangles) / (n of connected triples)
     - A value of 1 means that the network contains all possible edges
   - Multiplexity: Ties with more than one dimension are multiplex <-> uniplex
   - Homophily: The tendency of individuals to connect with others who share the same attitudes and beliefs
