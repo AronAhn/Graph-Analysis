@@ -8,3 +8,4 @@
 
 ## 5.2. Identifying Influential Individuals in the Network
 - Question: Which nodes, among a large number of connected nodes, are more important?
+- *Centrality* is a term used to define the importance of a node
