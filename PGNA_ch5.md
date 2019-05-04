@@ -33,3 +33,13 @@
 
 ## 5.4. Neighbors
 - ```G = nx.Graph(); G.neighbors(0)```
+
+## 5.5. Bridges
+- The significance of *bridges* is that they reduce the overall distance between nodes in a network which in turn speeds up information spread throughout the network
+- Bridges are links that connect two separate groups
+
+## 5.6. Which Centrality Algorithm to Use?
+- *Degree* is a measure of popularity. It determines nodes that can quickly spread information to a localized area
+- *Betweenness* is based on the idea that a person is more important if he/she is more intermediary in the network
+- *Closeness* is a measure of reach; how fast information will spread to all other nodes from a single node?
+- *Eigenvector* is a measure of related importance. Who is closest to the most influential people in the graph?
