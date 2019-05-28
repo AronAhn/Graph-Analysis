@@ -7,3 +7,9 @@
 
 ## 6.2. Cliques
 - ```nx.find_cliques(G)```
+
+## 6.3. Clustering coefficient
+- CC is the fraction of the node's neighbors that are also neighbors with each other
+- This metric can be applied either locally or globally
+  - Locally, it emphasized the neighborhood of a node
+  - Globally, it is the level of clustering in a graph
