@@ -19,3 +19,6 @@
 - A triad is a subgraph with three nodes: a focal(ego), an altar, and a third node
 - It is the smallest graph structure that has more than two ndoes
 - The four cases of triad are; Complete, open, closed, and unconnected
+
+## 6.5. Structural holes
+- A hole in the ego network of a node such that two of its neighbors cannot connect directly
