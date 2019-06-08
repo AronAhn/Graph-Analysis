@@ -22,3 +22,9 @@
 
 ## 6.5. Structural holes
 - A hole in the ego network of a node such that two of its neighbors cannot connect directly
+
+## 6.6. Brokerage
+- Brokerage focuses on social relations in network as channels of exchange
+- It measures ego's potential to induce and exploit competition between actors in a triad
+- Another important concepts that is related to brokerage is *aggregate constraint*
+  - The sum of the dyadic constraint on all the ties of a particular node
